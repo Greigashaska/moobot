@@ -158,9 +158,6 @@ def context_factory(message, bot):
 @bot.event
 async def on_ready():
 
-    with open (config.profile_pic, 'rb') as f:
-        await client.edit_profile(avatar=f.read())
-
     logging.log(msg='%s - %s' % (bot.user.name, bot.user.id),
         level=logging.INFO)
     logging.log(msg='playing: %s' % config.status_message,
