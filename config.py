@@ -15,6 +15,8 @@ status_message = 'moobot development happening now :D'
 
 database_file = 'moobot.db'
 
+profile_pic = 'moobotchan.jpg'
+
 fixed_karma = {
     '1337': 1337
 }
