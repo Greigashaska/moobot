@@ -1,5 +1,5 @@
-"""moobot
-moobot is a shitty discord bot that helps people
+"""moobot-chan
+moobot-chan is a shitty discord bot that helps people
 pay their respects
 """
 

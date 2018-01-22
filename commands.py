@@ -96,7 +96,7 @@ async def f(cls_, ctx):
         cls_.conn.commit()
 
     await cls_.bot.send_message(ctx.message.channel,
-                       '%s pays their respects' % ctx.message.author.mention)
+                       '%s p-p-pays their respects... BAKA' % ctx.message.author.mention)
 
 
 async def respect(cls_, ctx):
@@ -118,7 +118,7 @@ async def respect(cls_, ctx):
             r = str(result[1])
 
     await cls_.bot.send_message(ctx.message.channel,
-                        '*%s*: %s respect' % (ctx.message.author.mention, r))
+                        '*%s*: %s respect... NOT LIKE I LIKE YOU OR ANYTHING' % (ctx.message.author.mention, r))
 
 
 async def top_respect(cls_, ctx):
